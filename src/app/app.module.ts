@@ -22,7 +22,8 @@ import 'hammerjs';
     LoginComponent
   ],
   entryComponents: [
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

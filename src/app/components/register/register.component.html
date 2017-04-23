@@ -1,3 +1,29 @@
-<p>
-  register works!
-</p>
+<md-dialog-actions>
+  <!-- <button md-raised-button color="primary" md-dialog-close>close button</button> -->
+  <button md-mini-fab color="" md-dialog-close class="close">
+    <md-icon>clear</md-icon>
+  </button>
+</md-dialog-actions>
+
+<h1 md-dialog-title class="primary-color">Create your account. </h1>
+
+<md-dialog-content class="accent-color">
+  <form action="">
+    <md-card>
+      <md-input-container>
+        <input mdInput placeholder="Email" name="email" type="email">
+        <md-error>Er!</md-error>
+      </md-input-container>
+      <md-input-container>
+        <input mdInput placeholder="Login" name="login" type="text">
+      </md-input-container>
+      <md-input-container>
+        <input mdInput placeholder="Password" name="password" type="password">
+      </md-input-container>
+    </md-card>
+  </form>
+
+  <md-card-actions>
+    <button md-raised-button color="accent">Submit</button>
+  </md-card-actions>
+</md-dialog-content>

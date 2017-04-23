@@ -1,42 +1,22 @@
 <md-dialog-actions>
   <!-- <button md-raised-button color="primary" md-dialog-close>close button</button> -->
-  <button md-mini-fab color="primary" md-dialog-close><md-icon>clear</md-icon></button>
+  <button md-mini-fab color="" md-dialog-close><md-icon>clear</md-icon></button>
 </md-dialog-actions>
 
-<h1 md-dialog-title class="primary-color">Create your account. It's free and only takes a minute.</h1>
+<h1 md-dialog-title class="primary-color">Log in </h1>
 
 <md-dialog-content class="accent-color">
-  <md-card>
-    <md-input-container>
-      <input mdInput placeholder="Login" name="login">
-   </md-input-container>
-    <md-input-container>
-      <input mdInput placeholder="Username" name="username">
-   </md-input-container>
+  <form action="">
+    <md-card>
+      <md-input-container>
+        <input mdInput placeholder="Login" name="login" type="text">
+      </md-input-container>
+      <md-input-container>
+        <input mdInput placeholder="Password" name="password" type="password">
+        <md-error>Er!</md-error>
+      </md-input-container>
+    </md-card>
+  </form>
 
-  </md-card>
   <md-card-actions><button md-raised-button color="accent">Submit</button></md-card-actions>
-
-  <!-- <md-card class="app-input-section">
-    <md-input placeholder="First name"></md-input>
-
-    <md-input #nickname placeholder="Nickname" maxlength="50">
-      <md-hint align="end">
-        {{nickname.characterCount}} / 50
-      </md-hint>
-    </md-input>
-
-    <md-input>
-      <md-placeholder>
-        <i class="material-icons app-input-icon">android</i> Favorite phone
-      </md-placeholder>
-    </md-input>
-
-    <md-input placeholder="Motorcycle model">
-      <span md-prefix>
-        <i class="material-icons app-input-icon">motorcycle</i>
-        &nbsp;
-      </span>
-    </md-input>
-  </md-card> -->
 </md-dialog-content>

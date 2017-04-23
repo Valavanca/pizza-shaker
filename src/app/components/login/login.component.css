@@ -1,0 +1,13 @@
+.mat-input-container {
+    display: block;
+    margin-top: 3em;
+}
+md-dialog-content {
+  min-width: 250px;
+  max-width: 400px;
+}
+md-card-actions {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0;
+}

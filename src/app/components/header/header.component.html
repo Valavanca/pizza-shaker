@@ -6,11 +6,12 @@
   <div>
     <button md-raised-button
     class="background-primary-color white-text login"
-    (click)="openDialog()">Login</button>
+    (click)="openLogin()">Login</button>
   </div>
 
   <div>
-    <button md-button class="background-accent-color white-text signup">SignUp</button>
+    <button md-button class="background-accent-color white-text signup"
+    (click)="openRegister()">SignUp</button>
   </div>
 
   <button md-button [mdMenuTriggerFor]="menu">Menu</button>
